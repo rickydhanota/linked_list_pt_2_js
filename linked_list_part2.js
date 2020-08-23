@@ -38,7 +38,12 @@ class SLL{
         return this
     }
 
-    reverseSequence(value){
+    reverseSequence(){ // head -> node1 -> node2 -> node3->
+        var runner = this.head;
+        while (runner.next != null){
+            runner = runner.next;
+        }
+        var last_node = runner.next;
 
     }
 
